@@ -3172,7 +3172,7 @@ h1.page-title + .tag-cloud-list {
   content: '';
 }
 #page-header.full_page {
-  height: 30rem;
+  height: 0.5em;
   background-attachment: fixed;
 }
 #page-header.full_page #site-info {
