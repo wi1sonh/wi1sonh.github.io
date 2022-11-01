@@ -1396,23 +1396,6 @@ body {
 input::placeholder {
   color: var(--font-color);
 }
-#web_bg {
-  position: fixed;
-  z-index: -999;
-  width: 100%;
-  height: 100%;
-  background: -webkit-linear-gradient(70deg, #0062be, #925696, #cc426e, #fb0347);
-  background: -moz-linear-gradient(70deg, #0062be, #925696, #cc426e, #fb0347);
-  background: -o-linear-gradient(70deg, #0062be, #925696, #cc426e, #fb0347);
-  background: -ms-linear-gradient(70deg, #0062be, #925696, #cc426e, #fb0347);
-  background: linear-gradient(20deg, #0062be, #925696, #cc426e, #fb0347);
-  background-attachment: local;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
 h1,
 h2,
 h3,
