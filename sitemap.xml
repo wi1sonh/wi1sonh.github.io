@@ -81,14 +81,14 @@
 
   
   <url>
-    <loc>https://darknull8.github.io/categories/CTF/</loc>
+    <loc>https://darknull8.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://darknull8.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://darknull8.github.io/categories/CTF/</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
