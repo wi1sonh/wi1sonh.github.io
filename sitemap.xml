@@ -2,6 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://darknull8.github.io/about/index.html</loc>
+    
+    <lastmod>2022-11-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://darknull8.github.io/tags/index.html</loc>
+    
+    <lastmod>2022-11-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://darknull8.github.io/link/index.html</loc>
+    
+    <lastmod>2022-11-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://darknull8.github.io/categories/index.html</loc>
+    
+    <lastmod>2022-11-02</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://darknull8.github.io/2022/10/30/Hackergame2022-writeup/</loc>
     
     <lastmod>2022-11-01</lastmod>
@@ -81,14 +117,14 @@
 
   
   <url>
-    <loc>https://darknull8.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://darknull8.github.io/categories/CTF/</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://darknull8.github.io/categories/CTF/</loc>
+    <loc>https://darknull8.github.io/categories/%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2022-11-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
