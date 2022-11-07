@@ -1,0 +1,10 @@
+
+  @font-face{
+    font-family: 'JetBrainsMono-Regular';
+
+    src: url('/font/JetBrainsMono-Regular.ttf') format("truetype");
+}
+
+body {
+    font-family: 'JetBrainsMono-Regular';
+}
