@@ -1,10 +1,10 @@
 
   @font-face{
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrainsMono-Regular';
     font-display: swap;
     src: url('/source/fonts/JetBrainsMono-Regular.ttf') format("truetype");
 }
 
 body {
-    font-family: 'JetBrains Mono';
+    font-family: 'JetBrainsMono-Regular';
 }
