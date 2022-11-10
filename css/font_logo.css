@@ -1,10 +1,10 @@
 
   @font-face{
-    font-family: 'Mangola';
+    font-family: 'AnandaBlackPersonalUseRegular-rg9Rx';
     font-display: swap;
-    src: url('/source/fonts/MangolaRegular-axmw5.otf') format("opentype");
+    src: url('/source/fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf') format("truetype");
 }
 
 body {
-    font-family: 'Mangola';
+    font-family: 'AnandaBlackPersonalUseRegular-rg9Rx';
 }
