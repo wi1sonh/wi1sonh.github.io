@@ -1,10 +1,10 @@
 
   @font-face{
-    font-family: 'Lobster';
+    font-family: 'AnandaBlackPersonalUseRegular-rg9Rx';
     font-display: swap;
-    src: url('https://fonts.googlefonts.cn/css?family=Lobster') format("truetype");
+    src: url('/source/fonts/AnandaBlackPersonalUseRegular-rg9Rx.ttf') format("truetype");
 }
 
 body {
-    font-family: 'Lobster';
+    font-family: 'AnandaBlackPersonalUseRegular-rg9Rx';
 }
