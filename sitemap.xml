@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hwylzeus.github.io/about/index.html</loc>
+    
+    <lastmod>2023-11-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://hwylzeus.github.io/2022/10/30/Hackergame2022-writeup/</loc>
     
     <lastmod>2023-11-07</lastmod>
@@ -12,15 +21,6 @@
   
   <url>
     <loc>https://hwylzeus.github.io/2023/11/08/Hackergame2023-writeup/</loc>
-    
-    <lastmod>2023-11-07</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://hwylzeus.github.io/about/index.html</loc>
     
     <lastmod>2023-11-07</lastmod>
     
