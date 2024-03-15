@@ -2,7 +2,7 @@
 title:               Zhengsong Huang
 tagline:             'QAQ'
 description:         'Hope is a good thing, maybe the best of things. And no good thing ever dies.'
-url:                 hwyl.run
+url:
 baseurl:             ''
 paginate:            5
 paginate_path:       '/blogs/page:num'
