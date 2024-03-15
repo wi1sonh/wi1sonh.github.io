@@ -1,25 +1,26 @@
 ---
 layout: default
 title: Home
+permalink: /blogs/
 ---
 
-<div class="posts">
+<div class="posts heti">
   {% for post in paginator.posts %}
   <div class="post">
     <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
+      <a href="{{ post.url | absolute_url }}" style="color:#268bd2;">
         {{ post.title }}
       </a>
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    {{ post.excerpt }}
   </div>
   {% endfor %}
 </div>
 
-<div class="pagination">
+<div class="pagination heti">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
   {% else %}

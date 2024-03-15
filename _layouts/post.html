@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<div class="post">
+<div class="post heti">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
   {{ content }}
 </div>
 
 {% if site.related_posts.size >= 1 %}
-<div class="related">
+<div class="related heti">
   <h2>Related posts</h2>
   <ul class="related-posts">
     {% for post in site.related_posts limit:3 %}
@@ -25,3 +25,19 @@ layout: default
   </ul>
 </div>
 {% endif %}
+
+<head>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+</head>
+<body>
+  <div id="vcomments"></div>
+  <script>
+      new Valine({
+          el: '#vcomments',
+          appId: 'Qqqjd4ujPl2Xe9RzOhCH9hD0-gzGzoHsz',
+          appKey: 'Xp9B4zN1o4rdJVny7J3sAaYD'
+      })
+  </script>
+</body>
+
+
