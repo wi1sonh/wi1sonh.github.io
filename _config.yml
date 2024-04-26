@@ -4,15 +4,15 @@ tagline:             'QAQ'
 description:         'Hope is a good thing, maybe the best of things. And no good thing ever dies.'
 url:
 baseurl:             ''
-paginate:            5
+paginate:            10
 paginate_path:       '/blogs/page:num'
 permalink:           pretty
 # timezone:            Asia/Shanghai
 
 # About/contact
 author:
-  name:              Zeus Huang
-  url:               https://github.com/Hwylzeus
+  name:              Wilson Huang
+  url:               https://github.com/Wilsooon
   email:             huangzhs8@mail2.sysu.edu.cn
 
 # Gems
