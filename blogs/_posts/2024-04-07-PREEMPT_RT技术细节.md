@@ -3,8 +3,6 @@ layout: post
 title: PREEMPT_RT 技术细节
 ---
 
-## Motivation
-
 PREEMPT_RT 补丁的主要目的是最大限度地减少不可抢占的内核代码量。因此，实施了几种替代机制和新机制。这些机制在主线 Linux 中部分可用。从版本 5.15 开始，PREEMPT_RT 补丁已部分合并到主线 Linux 内核中，并通过 CONFIG_PREEMPT_RT 启用。
 
 ---
