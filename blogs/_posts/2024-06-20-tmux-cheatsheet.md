@@ -1,4 +1,9 @@
-# tmux cheatsheet
+---
+layout: post
+title: tmux cheatsheet
+---
+
+tmux牛逼
 
 ## 前缀键
 

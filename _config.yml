@@ -4,7 +4,7 @@ tagline:             'QAQ'
 description:         'Hope is a good thing, maybe the best of things. And no good thing ever dies.'
 url:
 baseurl:             ''
-paginate:            10
+paginate:            20
 paginate_path:       '/blogs/page:num'
 permalink:           pretty
 # timezone:            Asia/Shanghai

@@ -1,6 +1,7 @@
-# Linux指令拾遗01——find
-
-## Motivation
+---
+layout: post
+title: Linux指令拾遗01——find
+---
 
 因为日常接触linux比较多，为了提升文件浏览效率，有必要学习一下find指令的使用
 

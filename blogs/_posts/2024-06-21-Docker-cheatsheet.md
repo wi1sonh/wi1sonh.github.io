@@ -1,6 +1,7 @@
-# Linux Docker cheatsheet
-
-## Motivation
+---
+layout: post
+title: Linux Docker cheatsheet
+---
 
 因为最近要在我的阿里云 ECS 上部署[软工作业项目](https://github.com/wi1sonh/cloudmall)，遂借此记录Docker在Linux上的配置过程，以 Ubuntu 22.04 LTS 为例说明
 

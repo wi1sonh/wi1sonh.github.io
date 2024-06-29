@@ -1,6 +1,7 @@
-# Linux 个人初始化配置
-
-## Motivation
+---
+layout: post
+title: Linux 个人初始化配置
+---
 
 因为最近频繁折腾Linux，故记录一些常用的配置，避免忘记。以下配置在Debian12.5上保证有效
 
@@ -23,15 +24,22 @@ apt install -y net-tools? ssh vim git gcc curl zsh neofetch build-essential libn
 
 ### 配置 zsh
 
-chsh -s /bin/zsh
+`chsh -s /bin/zsh`
+
 <!-- sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" -->
-sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
-git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
-vim ~/.zshrc
-ZSH_THEME="powerlevel10k/powerlevel10k"
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
-vim ~/.zshrc ...+z
+`sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"`
+
+`git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+
+`vim ~/.zshrc`
+
+`ZSH_THEME="powerlevel10k/powerlevel10k"`
+
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
+`git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+
+`vim ~/.zshrc ...+z`
 
 ### 配置免密登录
 
@@ -91,7 +99,7 @@ sftp
 > 查看ssh服务状态: /etc/init.d/ssh status
 > 手动开启：/etc/init.d/ssh start
 
-![1](../assets/images/nett.png)
+![1](/assets/images/nett.png)
 
 
 make menuconfig
